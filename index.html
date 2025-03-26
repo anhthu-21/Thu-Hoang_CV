@@ -3,140 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - Hoang Anh Thu</title>
+    <title>Anh Thu Hoang - CV</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #e0f7fa;
-            margin: 0;
-            padding: 20px;
+            margin: 40px;
+            line-height: 1.6;
         }
         .container {
-            max-width: 900px;
-            background: white;
+            width: 80%;
             margin: auto;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            display: flex;
-        }
-        .left {
-            width: 35%;
-            background: #ececec;
-            padding: 20px;
-            text-align: center;
-        }
-        .left img {
-            width: 120px;
-            height: 120px; 
-            border-radius: 0;
-            object-fit: cover; 
-        }
-        .right {
-            width: 65%;
-            padding: 20px;
-            overflow: visible;
         }
         h1, h2 {
-            color: #333;
+            color: #d91e18;
         }
         .section {
             margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ddd;
         }
-        .info {
-            list-style: none;
-            padding: 0;
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
         }
-        .info li {
-            margin: 5px 0;
-        }
-        .skills, .soft-skills {
+        .skills, .languages {
             display: flex;
             flex-wrap: wrap;
         }
-        .skills span, .soft-skills span {
-            background: #007bff;
-            color: white;
-            padding: 5px 10px;
-            border-radius: 5px;
-            margin: 5px;
-            font-size: 14px;
+        .skill, .language {
+            width: 50%;
         }
-        .section ul {
-            white-space: normal;  
-            word-wrap: break-word;  
-            overflow: visible;  
-            padding-left: 20px;
-        }
-        iframe {
+        .progress-bar {
             width: 100%;
-            height: 500px;
-            border: none;
+            background-color: #ddd;
+            height: 10px;
+            border-radius: 5px;
+            margin-top: 5px;
+            position: relative;
+        }
+        .progress-bar span {
+            display: block;
+            height: 100%;
+            background-color: #d91e18;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="left">
-            <img src="profile.jpg" alt="Profile Photo">
-            <h2>Hoang Anh Thu</h2>
-            <p>Business Administration</p>
-            <h3>Contact</h3>
-            <ul class="info">
-                <li>📞 +358466338449</li>
-                <li>✉️ thu.hoang19042004@gmail.com</li>
-                <li>📍 Suksitie 3, 84100 Ylivieska</li>
-            </ul>
-            <h3>Skills</h3>
+        <h1>ANH THU HOANG</h1>
+        <div class="contact-info">
+            <p>Ylivieska, 84100 Finland | +358466338449 | thu.hoang19042004@gmail.com</p>
+            <p><a href="https://www.linkedin.com/in/anh-thu-hoang-963740255">LinkedIn Profile</a></p>
+        </div>
+        
+        <div class="section">
+            <h2>Professional Summary</h2>
+            <p>Recent graduate with a <strong>Bachelor of Business Administration (BBA)</strong> in Business Management with a specialization in <strong>Enterprise Resource Planning (ERP)</strong>. Strong analytical and problem-solving skills with experience in financial analysis, operational strategy, and data-driven decision-making.</p>
+        </div>
+
+        <div class="section">
+            <h2>Skills</h2>
             <div class="skills">
-                <span>Team Leadership</span>
-                <span>Time Management</span>
-                <span>Customer Service</span>
-                <span>Retail Operations</span>
-                <span>Team Coordination</span>
-                <span>Project Management</span>
+                <div class="skill"><strong>Financial & Operational Analysis</strong> - Financial modeling, risk assessment.</div>
+                <div class="skill"><strong>Data Analytics & Visualization</strong> - Excel, R, SAP ERP.</div>
+                <div class="skill"><strong>ERP & SAP Systems</strong> - SAP S/4HANA, Data Warehousing.</div>
+                <div class="skill"><strong>Project Management</strong> - Managing academic and business projects.</div>
             </div>
         </div>
-        <div class="right">
-            <div class="section">
-                <h2>About Me</h2>
-                <p>A highly motivated and results-driven Business Administration graduate specializing in Enterprise Resource Planning (ERP), eager to apply analytical thinking and communication skills in the Apprentice Program at Shopee. Passionate about e-commerce, business development, and digital transformation, with a strong ability to adapt in fast-paced environments.</p>
-            </div>
-            <div class="section">
-                <h2>Education</h2>
-                <p><strong>Centria University of Applied Sciences</strong><br>
-                   Bachelor of Business Administration – Business Management (ERP)<br>
-                   Graduation Date: November 2024</p>
 
-                <p><strong>Degree Certification:</strong> <a href="https://drive.google.com/file/d/1WEAUVU0x8W59WERBCA_FtERhW1ukAX9X/preview?usp=drive_link" target="_blank">"View Degree"</a></p>
+        <div class="section">
+            <h2>Education</h2>
+            <p><strong>BBA: Business Management (SAP/ERP)</strong> | Centria University of Applied Sciences - 11/2024</p>
+            <p><strong>BBA: ERASMUS+ Student</strong> | Technische Hochschule Augsburg - 08/2024</p>
+        </div>
 
+        <div class="section">
+            <h2>Academic Projects & Research</h2>
+            <p><strong>Technical Analysis of Stock Market Data: UPM</strong> (05/2024 - 07/2024)</p>
+            <ul>
+                <li>Conducted in-depth quantitative & qualitative analysis.</li>
+                <li>Applied statistical modeling, risk assessment.</li>
+                <li>Used R for data visualization & interpretation.</li>
+            </ul>
+            <p><strong>Business Plan for a Start-up Conveyor Hot Pot</strong> (10/2023 - 05/2024)</p>
+            <ul>
+                <li>Developed financial projections, operational planning.</li>
+                <li>Applied strategic management principles.</li>
+            </ul>
+        </div>
 
-                <p><strong>Thesis:</strong> <a href="https://urn.fi/URN:NBN:fi:amk-202406082235" target="_blank">"Business plan : start-up conveyor Hotpot restaurant"</a></p>
-
-                <p><strong>Specialization:</strong><br>
-                   Business management and Enterprise Resource Planning (ERP)<br>
-                </p>
-                <p><strong>Erasmus+ Exchange Program</strong><br>
-                   Technische Hochschule Augsburg, Germany<br>
-                   March 2024 - July 2024
-                </p>
-            </div>
-            <div class="section">
-                <h2>Achievements & Leadership</h2>
-                <ul>
-                    <li>Successfully developed thesis project: a business plan for a start-up restaurant, incorporating innovative strategies and financial management tools.</li>
-                    <li>Led a project team in SAP Next-Gen initiatives.</li>
-                    <li>Scored excellent grades in leadership-related subjects, including Advanced Project Management and Human Resource Management.</li>
-                    <li>Gained international exposure through the Erasmus+ exchange program, enhancing cultural adaptability and global business perspectives.</li>
-                </ul>
-            </div>
-            <div class="section">
-                <h2>Languages & Soft Skills</h2>
-                <p><strong>Languages:</strong> English, Vietnamese, German</p>
-                <h3>Technical Skills</h3>
-                <div class="soft-skills">
-                    <span>Microsoft Offices</span>
-                    <span>Python & R</span>
-                    <span>Eclipse</span>
+        <div class="section">
+            <h2>Languages</h2>
+            <div class="languages">
+                <div class="language">
+                    <p>English - Bilingual (C2)</p>
+                    <div class="progress-bar"><span style="width: 95%;"></span></div>
+                </div>
+                <div class="language">
+                    <p>German - Beginner (A1)</p>
+                    <div class="progress-bar"><span style="width: 25%;"></span></div>
                 </div>
             </div>
         </div>
